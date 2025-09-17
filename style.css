@@ -160,16 +160,18 @@ header > img {
 }
 #p2 {
     position: absolute;
-    width: 1000px;
-    margin: auto;
     display: flex;
-    top: 20em;
+    width: 1200px;
+    justify-content: center;
+    margin-top: 80px;
+    left: 91px;
+
 }
 #bnn {
     height: 50px;
     width: 1400px;
     justify-items: center;
-    margin: auto;
+    justify-content: center;
 }
 #pn {
     position: absolute;
@@ -178,8 +180,8 @@ header > img {
     left: 12em;
 }
 #center {
-    margin-inline: 8em;
-    margin-left: 6em;
+    margin-right: 8em;
+    margin-left: 8em;
 }
 .fpn {
     font-family: sans-serif;
@@ -215,9 +217,8 @@ header > img {
 .pl {
    background-color: rgb(255, 255, 255);
     height: 5em;
-    width: 18em;
+    width: 15em;
     padding-bottom: 8em;
-    margin-right: 2em;
     border-radius: 10px;
     border: 1px solid rgba(0, 0, 0, 0.178);
     text-align: center; 
@@ -320,4 +321,7 @@ li {
     border-radius: 5px;
     color: white;
     left: 15px;
+}
+body * {
+    bordr: 1px solid red;
 }
