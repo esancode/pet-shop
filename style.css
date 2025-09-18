@@ -147,6 +147,7 @@ header > img {
     border-radius: 10px;
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.132);
     text-align: center;
+    margin: 0px;
 }
 #p2 {
     position: absolute;
@@ -154,7 +155,7 @@ header > img {
     width: 1200px;
     justify-content: center;
     margin-top: 80px;
-    left: 91px;
+    left: 88px;
 
 }
 #bnn {
@@ -167,7 +168,7 @@ header > img {
     position: absolute;
     display: flex;
     top: 33em;
-    left: 12em;
+    left: 12.1em;
 }
 #center {
     margin-right: 8em;
@@ -312,9 +313,7 @@ li {
     color: white;
     left: 15px;
 }
-body * {
-    borer: 1px solid red;
-}
+
 .pla{
     background-color: rgb(255, 255, 255);
     height: 5em;
