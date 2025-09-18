@@ -343,14 +343,13 @@ header#h4 p {
     margin: 30px;
 }
 .fpna{
+    flex-direction: column;
     font-family: sans-serif;
     font-size: 20px;
     color: black;
     margin: 0px; 
     height: 25px;   
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 10px;
+    width: 65%;
     
 }
 .fpna img{
@@ -360,11 +359,28 @@ header#h4 p {
 .nb{
     display: flex;
     width: 80%;
-    height: 90%;
-    margin: 10px 0px 0px 10px;
+    margin: 30px 0px 0px 30px;
 }
 .bj{
-    width: 70px;
+    width: 55px;
+    height: 55px;
     left: 0px;
     border-radius: 50%;
+}
+.estrela{
+    width: 12%;
+    margin-right: 3px;
+}
+.estrelas{
+    display: flex;
+    width: 70%;
+    margin-left: 13px;
+    
+}
+.agr{
+    flex-direction: column;
+    margin: auto;
+}
+.pla p{
+    text-align: left;
 }
