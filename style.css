@@ -60,17 +60,7 @@ header#h3 h1 {
     margin: 0px;
     text-align: center;
 }
-header#h4 h1 {
-   font-family: sans-serif;
-    font-size: 3em;
-    color: #2C588C;
-    margin: 0px;
-    text-align: center; 
-}
-header#h4 p {
-    text-align: center;
-    margin: 30px;
-}
+
 .produtos {
     height: 500px;
     background-color: #ffffff;
@@ -323,5 +313,58 @@ li {
     left: 15px;
 }
 body * {
-    bordr: 1px solid red;
+    borer: 1px solid red;
+}
+.pla{
+    background-color: rgb(255, 255, 255);
+    height: 5em;
+    width: 23em;
+    padding-bottom: 8em;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.178);
+    text-align: center; 
+}
+#p2f{
+    display: flex;
+    width: 1300px;
+    margin: auto;
+    justify-content: center;
+    margin-top: 35px;
+}
+header#h4 h1 {
+   font-family: sans-serif;
+    font-size: 3em;
+    color: #2C588C;
+    margin: 0px;
+    text-align: center; 
+}
+header#h4 p {
+    text-align: center;
+    margin: 30px;
+}
+.fpna{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: black;
+    margin: 0px; 
+    height: 25px;   
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    
+}
+.fpna img{
+    width: 14%;
+    border-radius: 50%;
+}
+.nb{
+    display: flex;
+    width: 80%;
+    height: 90%;
+    margin: 10px 0px 0px 10px;
+}
+.bj{
+    width: 70px;
+    left: 0px;
+    border-radius: 50%;
 }
