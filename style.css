@@ -1,3 +1,7 @@
+body{
+    background-color: #376EB4;
+}
+
 html, body {
   margin: 0px;
   padding: 0;
@@ -9,8 +13,9 @@ html, body {
     display: flex;
     height: 50px;
     background-color: #204574;
-    margin: 0px;
+    margin: auto;
     align-items: center;
+    max-width: 1600px;
 }
 #menu {
     position: absolute;
@@ -38,7 +43,7 @@ header {
     height: 500px;
     background-color: #ffffff;
     margin: auto;
-    max-width: 1500px;
+    max-width: 1600px;
     min-width: 400px;
     padding-top: 70px;
 }
@@ -72,19 +77,16 @@ header#h3 h1 {
     box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.058);
     padding-bottom: 20px;
 }
-
 header#h3 p {
     text-align: center;
     margin-top: 30px;
 }
 #barra {
-    position: absolute;
     height: 40px;
-    width: 1500px;
+    width: 100%;
     margin: auto;
     padding-top: 30px;
     text-align: center;
-    bottom: 8px;
 }
 #space {
     height: 50px;
@@ -94,18 +96,18 @@ header#h3 p {
 nav {
     height: 137px;
     background-color: #CBDFF1;
-    width: 100%;
+    max-width: 1600px;
+    margin: auto;
     padding-bottom: 3em;
-    min-width: 400px;
 }
 #tt {
-    position: absolute;
     font-family: sans-serif;
     font-size: 4em;
+    max-width: 1000px;
+    margin-top: 40px;
+    margin-left: 76px;
     color: #2C588C;
     margin-bottom: 15px;
-    left: 76px;
-    top: 110px;
 }
 #ns {
    font-family: sans-serif;
@@ -118,9 +120,9 @@ nav {
    font-size: medium;
 }
 #title {
-    position: absolute;
-    top: 19em;
-    left: 80px;
+    max-width: 1000px;
+    margin-top: 17px;
+    margin-left: 80px;
 }
 #botton {
     top: 20px;
@@ -150,25 +152,20 @@ header > img {
     margin: 0px;
 }
 #p2 {
-    position: absolute;
     display: flex;
-    width: 1200px;
+    width: 100%;
     justify-content: center;
     margin-top: 80px;
     left: 88px;
 
 }
-#bnn {
-    height: 50px;
-    width: 1400px;
-    justify-items: center;
-    justify-content: center;
-}
 #pn {
     position: absolute;
+    margin: auto;
     display: flex;
     top: 33em;
-    left: 12.1em;
+    left: 50%;
+    transform: translate(-50%);
 }
 #center {
     margin-right: 8em;
@@ -200,9 +197,6 @@ header > img {
     background-color: #204574;
 }
 #sns {
-    position: absolute;
-    top: 3em;
-    left: 60px;
     text-align: center;
 }
 .pl {
@@ -248,7 +242,9 @@ header main {
 }
 #gato {
     position: absolute;
-    bottom: 3em;
+    left: 50%;
+    top: 80px;
+    transform: translate(-7%);
 }
 #ca {
     border: 1px solid black;
@@ -270,7 +266,9 @@ header main {
 }
 .direita {
     position: absolute;
-    right: 150px;
+    left: 50%;
+    max-width: 500px;
+    transform: translate(30%);
 }
 .dj {
     font-family: sans-serif;
@@ -278,40 +276,34 @@ header main {
     width: 70%;
     font-size: 2em;
 }
-#em {
-    position: absolute;
-    width: 600px;
-    left: 9em;
-    margin-top: 150px;
-}
 #pp {
-    width: 70%;
-    margin: 0px;
-    margin-top: 30px;
+    width: 500px;
+    margin-top: 0px;
+    margin-left: 80px;
 }
 .lista {
-    position: absolute;
     font-family: sans-serif;
     width: 40%;
-    margin-top: 285px;
-    left: 8em;
+    margin-top: 0px;
+    margin-left: 60px;
 }
 li {
     margin-bottom: 5px;
 }
 #dp {
-    position: absolute;
     width: 600px;
     left: 7.5em;
-    margin-top: 60px;
+    margin-top: 70px;
+    margin-left: 60px;
+    margin-bottom: 0px;
 }
 #bon {
-    position: absolute;
     background-color: #376EB4;
     padding: 15px;
     border-radius: 5px;
     color: white;
-    left: 15px;
+    margin-left: 80px;
+
 }
 
 .pla{
@@ -385,6 +377,8 @@ header#h4 p {
 }
 #info {
     height: 12em;
+    max-width: 1600px;
+    margin: auto;
     background-color: #204574;
 }
 #h4 {
@@ -394,9 +388,6 @@ header#h4 p {
     display: flex;
     height: 100%;
     justify-content: center;
-}
-body * {
-    boder: 1px solid red;
 }
 .vl{
     color: white;
