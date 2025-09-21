@@ -405,3 +405,46 @@ header#h4 p {
    margin: 0px;
    margin-top: 5px;
 }
+#form1 {
+    height: 500px;
+    max-width: 1600px;
+    margin: auto;
+    background-color: white;
+    text-align: center;
+}
+#haj {
+    font-family: sans-serif;
+    font-size: 2.5em;
+    color: #2C588C;
+    margin: 0px;
+    padding-top: 60px;
+    text-align: center; 
+}
+body * {
+    boder: 1px solid red;
+}
+#iemail {
+    height: 37px;
+    width: 210px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.227);
+    padding-left: 10px;
+}
+#enviar {
+    background-color: #204574;
+    height: 40px;
+    width: 150px;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    margin-left: 8px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+#iemail::placeholder{
+    position: absolute;
+    left: 10px;
+}
+#iemail:focus::placeholder{
+    color: transparent;
+}
