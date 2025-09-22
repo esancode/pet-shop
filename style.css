@@ -406,7 +406,7 @@ header#h4 p {
    margin-top: 5px;
 }
 #form1 {
-    height: 500px;
+    height: 250px;
     max-width: 1600px;
     margin: auto;
     background-color: white;
@@ -421,7 +421,7 @@ header#h4 p {
     text-align: center; 
 }
 body * {
-    boder: 1px solid red;
+    borer: 1px solid red;
 }
 #iemail {
     height: 37px;
@@ -447,4 +447,74 @@ body * {
 }
 #iemail:focus::placeholder{
     color: transparent;
+}
+#ctt {
+    height: 1000px;
+}
+#ctt #hj{
+    text-align: center;
+}
+#ctt #sla {
+    text-align: center;
+}
+#hj {
+    font-family: sans-serif;
+    font-size: 2.5em;
+    color: #2C588C;
+    margin: 0px;
+}
+.caixas {
+    display: inline-block;
+    position: relative;
+    background-color: #efefef66;
+    height: 200px;
+    width: 300px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+#dcx1 {
+    width: 750px;
+    height: 200px;
+    margin: 70px 0px 0px 120px;
+}
+#dcx2 {
+    width: 750px;
+    height: 200px;
+    margin: 30px 0px 0px 120px;
+}
+.imgf {
+    position: absolute;
+    width: 80px;
+    border-radius: 50%;
+}
+#dcx1 #as{
+    position: absolute;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 0;
+    top: 27px;
+    left: 90px;
+}
+#dcx2 #as{
+    position: absolute;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 0;
+    top: 27px;
+    left: 90px;
+}
+#dcx1 #az {
+    position: absolute;
+    top: 70px;
+    left: 15px;
+    font-size: 18px;
+}
+#dcx2 #az {
+    position: absolute;
+    top: 70px;
+    left: 15px;
+    font-size: 18px;
 }
