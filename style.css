@@ -421,7 +421,7 @@ header#h4 p {
     text-align: center; 
 }
 body * {
-    borer: 1px solid red;
+    boder: 1px solid red;
 }
 #iemail {
     height: 37px;
@@ -449,6 +449,7 @@ body * {
     color: transparent;
 }
 #ctt {
+    position: relative;
     height: 1000px;
 }
 #ctt #hj{
@@ -517,4 +518,16 @@ body * {
     top: 70px;
     left: 15px;
     font-size: 18px;
+}
+#mens {
+    position: absolute;
+    height: 600px;
+    width: 600px;
+    right: 0;
+    top: 250px;
+}
+#jdi {
+    display: inline-block;
+    margin: 0;
+    margin-right: 10px;
 }
