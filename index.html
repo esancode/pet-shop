@@ -6,37 +6,48 @@
     <title>Pet Shop</title>
     <link rel="shortcut icon" href="imagem/Logo Pet Shop Minimalista Rosa e Preto.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/Navbar.css">
 </head>
 <body>
-    <div id="mn">
-        <img style="width: 50px; position: absolute; left: 80px;" src="imagem/logo.png" alt="">
-        <p class="font" id="ps">PET SHOP</p>
-        <div id="menu" class="font">
+
+
+
+    <div class="navbar_widget">
+        <img class="navbar_widget__img" 
+             src="imagem/logo.png" 
+             alt="">
+        <p class="navbar_widget__text">PET SHOP</p>
+        <div class="navbar_widget__menu">
             <a href="#">Início</a>
             <a href="#">Sobre Nós</a>
             <a href="#">Serviços</a>
             <a href="#">Contato</a>
         </div>
     </div>
-        <div>
-            <header>
-                        <h1 id="tt">Seu Pet Merece o <br>
-                        Melhor Cuidado</h1>
-                        <div id="title">
-                            <p class="font">Bem-vindo ao nosso pet shop! Oferecemos uma <br>
-                                    variedade de produtos e serviços para manter <br>
-                                    seus amigos peludos felizes e saudáveis. <br></p>
-                            <div id="botoes">
-                                <span class="font" id="botton">
-                                    Compre Agora
-                                </span>
-                                <span class="font" id="ca">
-                                            Saiba Mais
-                                </span>
-                            </div>
-                        </div>
-                    <img id="gato" src="imagem/Veterinary-Dental-Center-of-Atlanta-for-Dogs-and-Cats.webp" alt="cachorro e um gato">
-            </header>
+
+
+
+
+
+    <div class="overview_widget">
+        <h1 id="tt">Seu Pet Merece o <br> Melhor Cuidado</h1>
+        <div id="title">
+            <p class="font">Bem-vindo ao nosso pet shop! Oferecemos uma <br>
+                            variedade de produtos e serviços para manter <br>
+                            seus amigos peludos felizes e saudáveis.
+            </p>
+            <div id="botoes">
+                <span class="font" id="botton">Compre Agora</span>   
+                <span class="font" id="ca">Saiba Mais</span>                     
+            </div>
+        </div>
+        <img id="gato" 
+                src="imagem/Veterinary-Dental-Center-of-Atlanta-for-Dogs-and-Cats.webp" 
+                alt="cachorro e um gato">
+    </div>
+           
+           
+           
             <nav>
             </nav>
             <div id="pn">
@@ -53,7 +64,6 @@
                         <h2 class="fpn">Veterinário</h2>
                     </div>
             </div>
-        </div>
         <header id="sobre">
             <div id="sns">
                 <h1 id="ns">SOBRE NÓS</h1>
@@ -263,12 +273,12 @@
                     </p>
                 </div>
             </div>
-            <form id="mens" action="">
+            <form id="mens" action="form.php">
                 <h3 class="font" style="font-size: 1.5em; margin-top: 10px; color: #000000b9;">Envie uma Mensagem</h3>
                 <div class="font" style="display: flex;">
                     <p id="jdi">
                     <label for="nomee">Nome Completo</label> <br>
-                        <input type="text" name="" id="nomee" class="barra1">
+                        <input type="text" name="" id="nomee" class="barra1" required>
                     </p>
                     <p id="jdi">
                     <label for="emaill">E-mail</label> <br>
@@ -276,7 +286,7 @@
                     </p>
                 </div>
                 <p class="font" style="margin-top: 25px;"><label for="telefone">Telefone</label> <br>
-                    <input type="text" class="barra1" id="telefone" style="width: 482px;">
+                    <input type="tel" class="barra1" id="telefone" style="width: 482px;">
                 </p>
                 <p class="font" style="margin-top: 25px;"><label for="assunto">Assunto</label> <br>
                     <input type="text" class="barra1" id="assunto" style="width: 482px;">
@@ -289,8 +299,8 @@
             <div class="redes"> 
                 <h3 id="jjj" style="margin: 0px;">Siga-nos nas Redes Sociais</h3>
                 <div style="margin: 0px;" id="amf">
-                    <img class="sociais" src="imagem/facebool.png" alt="">
-                    <img class="sociais" src="imagem/instagram.png" alt="">
+                    <img class="sociais" src="imagem/facebool.png" alt="facebook">
+                    <img class="sociais" src="imagem/instagram.png" alt="instagram">
                     <img class="sociais" src="imagem/whats.png" alt="">
                     <img class="sociais" src="imagem/youtube.png" alt="">
                 </div>

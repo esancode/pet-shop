@@ -8,24 +8,6 @@ html, body {
   height: 100%;
   width: 100%;
 }
-#mn {
-    position: relative;
-    display: flex;
-    height: 50px;
-    background-color: #204574;
-    margin: auto;
-    align-items: center;
-    max-width: 1600px;
-}
-#menu {
-    position: absolute;
-    display: flex;
-    width: 600px;
-    right: 30px;
-    align-items: center;
-    justify-content: center;
-    right: 0px;
-}
 a {
     margin-right: 50px;
     color: white;
@@ -33,11 +15,6 @@ a {
 }
 a:hover {
     text-decoration: underline;
-}
-#ps {
-    position: absolute;
-    color: white;
-    left: 140px;
 }
 header {
     height: 500px;
