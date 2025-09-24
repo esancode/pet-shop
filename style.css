@@ -58,23 +58,18 @@ header#h3 p {
     text-align: center;
     margin-top: 30px;
 }
-#barra {
-    height: 40px;
-    width: 100%;
-    margin: auto;
-    padding-top: 30px;
-    text-align: center;
-}
+
 #space {
     height: 50px;
     background-color: white;
     width: 100%;
 }
 nav {
+    margin-top: 130px;
     height: 137px;
     background-color: #CBDFF1;
     max-width: 1600px;
-    margin: auto;
+    margin-inline: auto;
     padding-bottom: 3em;
 }
 #tt {
@@ -169,13 +164,10 @@ header > img {
 .fpn:hover {
     color: #204574; 
 }
-
 #button:hover {
     background-color: #204574;
 }
-#sns {
-    text-align: center;
-}
+
 .pl {
    background-color: rgb(255, 255, 255);
     height: 5em;
@@ -184,14 +176,6 @@ header > img {
     border-radius: 10px;
     border: 1px solid rgba(0, 0, 0, 0.178);
     text-align: center; 
-}
-#btt {
-    background-color: #376EB4;
-    padding: 10px;
-    padding-inline: 20px;
-    border-radius: 10px;
-    color: white;
-    top: 2em;
 }
 #obs {
     position: absolute;
@@ -210,9 +194,7 @@ header > img {
 header main {
     width: 100%;
 }
-#btt:hover{
-    background-color: #204574;
-}
+
 #cachorro {
     position: absolute;
     top: 1px;

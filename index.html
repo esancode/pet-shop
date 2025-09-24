@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pet Shop</title>
     <link rel="shortcut icon" href="imagem/Logo Pet Shop Minimalista Rosa e Preto.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="assets/css/Navbar.css">
+    <link rel="stylesheet" href="assets/css/Overview.css">
+    <link rel="stylesheet" href="assets/css/About.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-
+    <!-- NAVBAR -->
 
     <div class="navbar_widget">
         <img class="navbar_widget__img" 
@@ -25,74 +27,84 @@
         </div>
     </div>
 
-
-
-
+    <!-- OVERVIEW -->
 
     <div class="overview_widget">
-        <h1 id="tt">Seu Pet Merece o <br> Melhor Cuidado</h1>
-        <div id="title">
-            <p class="font">Bem-vindo ao nosso pet shop! Oferecemos uma <br>
-                            variedade de produtos e serviços para manter <br>
-                            seus amigos peludos felizes e saudáveis.
+        <h1 class="overview_widget__title">Seu Pet Merece o <br> Melhor Cuidado</h1>
+        <div class="overview_widget__start">
+            <p>Bem-vindo ao nosso pet shop! Oferecemos uma <br>
+               variedade de produtos e serviços para manter <br>
+               seus amigos peludos felizes e saudáveis.
             </p>
-            <div id="botoes">
-                <span class="font" id="botton">Compre Agora</span>   
-                <span class="font" id="ca">Saiba Mais</span>                     
+            <div class="overview_widget__buttons">
+                <span class="overview_widget__button01">Compre Agora</span>   
+                <span class="overview_widget__button02">Saiba Mais</span>                     
             </div>
         </div>
-        <img id="gato" 
+        <img class="overview_widget__img" 
                 src="imagem/Veterinary-Dental-Center-of-Atlanta-for-Dogs-and-Cats.webp" 
                 alt="cachorro e um gato">
-    </div>
-           
-           
-           
-            <nav>
-            </nav>
-            <div id="pn">
-                    <div class="painel">
-                        <img class="figure" src="imagem/Captura de tela 2025-09-13 165230.png" alt="">
-                        <h2 class="fpn">Suprimentos para pet</h2>
-                    </div>
-                    <div class="painel" id="center">
-                        <img class="figure" src="imagem/pe.png" alt="">
-                        <h2 class="fpn">Passeio</h2>
-                    </div>
-                    <div class="painel">
-                        <img class="figure" src="imagem/coração.png" alt="">
-                        <h2 class="fpn">Veterinário</h2>
-                    </div>
+        <div class="overview_widget__button-panel">
+            <div class="overview_widget__panel">
+                <img class="overview_widget__icon" 
+                    src="imagem/osso.png" 
+                    alt="">
+                <h2 class="overview_widget__navlabel">Suprimentos para pet</h2>
             </div>
-        <header id="sobre">
-            <div id="sns">
-                <h1 id="ns">SOBRE NÓS</h1>
-                <P class="font">Somos uma empresa dedicada ao bem-estar e felicidade dos pets. Com anos de experiência <br> no mercado, oferecemos produtos de qualidade e serviços especializados para garantir <br>que seu animal de estimação tenha a melhor vida possível.
-                Nossa equipe é formada por <br>profissionais apaixonados por animais, comprometidos em oferecer atendimento personalizado <br>e produtos cuidadosamente selecionados para atender às necessidades específicas de cada pet.</P>
-                    <aside id="p2">
-                        <div class="pl">
-                            <img class="figure" src="imagem/pe.png" alt="">
-                            <h2 class="fpn">Nossa Missão</h2>
-                            <p class="font">para fornecer o melhor <br> atendimento aos animais de <br>estimação e seus donos</p>
-                        </div>
-                        <div class="pl" id="center">
-                            <img class="figure" src="imagem/coração.png" alt="">
-                            <h2 class="fpn">Nossa visão</h2>
-                            <p class="font">ser o principal fornecedor <br> de produtos e serviços para <br>animais de estimação</p>
-                        </div>
-                        <div class="pl">
-                            <img class="figure" src="imagem/estrela.png" alt="">
-                            <h2 class="fpn">Nossos Valores</h2>
-                            <p class="font">integridade, compaixão <br> e satisfação do cliente</p>
-                        </div>
-                    </aside>
+            <div class="overview_widget__panel-center">
+                <img class="overview_widget__icon" 
+                    src="imagem/pe.png" 
+                    alt="">
+                <h2 class="overview_widget__navlabel">Passeio</h2>
             </div>
-            <div id="barra">
-                <span class="font" id="btt">
-                        Saiba Mais
-                </span>
+            <div class="overview_widget__panel">
+                <img class="overview_widget__icon" 
+                    src="imagem/coração.png" 
+                    alt="">
+                <h2 class="overview_widget__navlabel">Veterinário</h2>
             </div>
-        </header>
+        </div>
+        <div class="overview_widget__sectiondivider">          
+    </div>        
+           
+    <!-- ABOUT-SECTION -->
+
+    <header class="about_widget">
+        <div class="about_widget__container">
+            <h1 class="about_widget__title">SOBRE NÓS</h1>
+            <P>Somos uma empresa dedicada ao bem-estar e felicidade dos pets. Com anos de experiência <br> no mercado, oferecemos produtos de qualidade e serviços especializados para garantir <br>que seu animal de estimação tenha a melhor vida possível.
+            Nossa equipe é formada por <br>profissionais apaixonados por animais, comprometidos em oferecer atendimento personalizado <br>e produtos cuidadosamente selecionados para atender às necessidades específicas de cada pet.</P>
+            <div class="about_widget__buttons">
+                <div class="pl">
+                    <img class="about_widget__icon" 
+                            src="imagem/pe.png" 
+                            alt="">
+                    <h2 class="about_widget__navlabel">Nossa Missão</h2>
+                    <p>para fornecer o melhor <br> atendimento aos animais de <br>estimação e seus donos</p>
+                </div>
+                <div class="pl" id="center">
+                    <img class="about_widget__icon" 
+                            src="imagem/coração.png" 
+                            alt="">
+                    <h2 class="about_widget__navlabel">Nossa visão</h2>
+                    <p>ser o principal fornecedor <br> de produtos e serviços para <br>animais de estimação</p>
+                </div>
+                <div class="pl">
+                    <img class="about_widget__icon" 
+                            src="imagem/estrela.png" 
+                            alt="">
+                    <h2 class="about_widget__navlabel">Nossos Valores</h2>
+                    <p>integridade, compaixão <br> e satisfação do cliente</p>
+                </div>
+            </div>
+        </div>
+        <div class="about_widget__button-wrapper">
+            <span class="about_widget__ctabutton">Saiba Mais</span>
+        </div>
+    </header>
+
+       <!--SERVICES -->
+
         <header id="h3">
             <h1>Nossos Serviços</h1>
             <p class="font">Oferecemos uma gama completa de serviços para garantir que seu pet tenha <br>tudo o que precisa para uma vida saudável e feliz.</p>
