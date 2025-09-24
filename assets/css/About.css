@@ -59,3 +59,25 @@
 #btt:hover {
   background-color: #204574;
 }
+
+.about_widget__panel {
+    background-color: rgb(255, 255, 255);
+    height: 5em;
+    width: 15em;
+    padding-bottom: 8em;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.178);
+    text-align: center; 
+}
+
+.about_widget__panel-center {
+    background-color: rgb(255, 255, 255);
+    height: 5em;
+    width: 15em;
+    padding-bottom: 8em;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.178);
+    text-align: center; 
+    margin-right: 8em;
+    margin-left: 8em;
+}
