@@ -1,12 +1,33 @@
-body{
-    background-color: #376EB4;
+body {
+    display: flex;
+    position: relative;
+    align-content: center;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+    background-color: #376EB4;   
+    XXXborder: solid 1px red;
 }
 
-html, body {
-  margin: 0px;
-  padding: 0;
-  height: 100%;
-  width: 100%;
+body * {
+  XXXborder: solid 1px red;
+  box-sizing: border-box;
+  font-family: sans-serif;
+
+
+}
+.petshop__page {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 1154px;
+    height: auto;
+    padding: 32px;
+    overflow: hidden;  
+    background-color: #ffffff;
 }
 a {
     margin-right: 50px;
@@ -282,7 +303,7 @@ li {
     margin-top: 35px;
 }
 header#h4 h1 {
-   font-family: sans-serif;
+    font-family: sans-serif;
     font-size: 3em;
     color: #2C588C;
     margin: 0px;

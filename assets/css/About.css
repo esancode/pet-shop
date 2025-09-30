@@ -1,14 +1,17 @@
 .about_widget {
-  display: block;
-  height: 637px;
+  display: flex;
+  width: 100%;
   max-width: 1600px;
-  min-width: 400px;
-  margin: auto;
-  padding-top: 70px;
+  height: 520px;
+  padding: 64px 0px 64px 0px;
   background-color: #ffffff;
   font-family: sans-serif;
+  XXXborder: solid 1px red;
 }
 
+.about_widget * {
+  XXXborder: solid 1px red;
+}
 .about_widget__container {
   text-align: center;
 }
