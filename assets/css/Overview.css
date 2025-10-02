@@ -8,11 +8,7 @@
   margin-top: 48px;
   overflow: hidden;
   background-color: #ffffff;
-  border: 1px solid red;
-}
-
-.overview_widget * {
-  border: solid 1px red;
+  XXXborder: solid 1px red;
 }
 
 .overview_widget__area {
@@ -44,7 +40,7 @@
   height: auto;
   padding: 0px;
   overflow: hidden;
-  font-size: 56px;
+  font-size: 48px;
   font-weight: 600;
   letter-spacing: 0.7;
   line-height: 0.95;
@@ -59,7 +55,7 @@
   height: auto;
   padding: 0px;
   overflow: hidden;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   color: #000000;
 }
@@ -81,9 +77,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 144px;
+  min-width: 136px;
   height: 48px;
-  padding: 0px 16px;
   overflow: hidden;
   font-size: 16px;
   font-weight: 500;
@@ -97,9 +92,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 144px;
+  min-width: 136px;
   height: 48px;
-  padding: 0px 16px;
   overflow: hidden;
   font-size: 16px;
   font-weight: 500;

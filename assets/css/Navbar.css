@@ -1,6 +1,7 @@
 .navbar_widget {
   display: flex;
   position: absolute;
+  justify-content: center;
   align-items: center;
   width: 100%;
   height: 48px;
@@ -13,29 +14,36 @@
   XXXborder: solid 1px red;
 }
 
+.navbar_widget__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  width: 1154px;
+  padding: 0px 32px;
+}
+
 .navbar_widget * {
   XXXborder: solid 1px red;
 }
 
 .navbar_widget__img {
-  position: absolute;
   left: 80px;
   width: 48px;
 }
 
 .navbar_widget__text {
-  position: absolute;
-  left: 140px;
+  align-self: auto;
+  text-indent: 10px;
+  width: 100%;
   color: white;
 }
 
 .navbar_widget__menu {
   display: flex;
-  position: absolute;
   align-items: center;
-  justify-content: center;
-  right: 0px;
-  width: 600px;
+  justify-content: space-between;
+  width: 416px;
   font-family: sans-serif;
   font-size: medium;
 }
